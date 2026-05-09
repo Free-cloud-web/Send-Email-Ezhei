@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Send Email</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6BG8KV70C"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-G6BG8KV70C');
+</script>
+
+<script>
+
+const subjects = [
+  "Urgent Appeal Regarding Executions of Iranian Youth",
+  "Immediate International Attention Needed for Iran’s Human Rights Crisis",
+  "Iranian Youth Are Being Executed Under Internet Blackout",
+  "Urgent Request to Address Escalating Executions in Iran",
+  "Call for Immediate Action on Iran’s Political Executions",
+  "Human Rights Emergency: Executions of Protesters in Iran",
+  "Appeal to Support the Iranian People Against State Repression",
+  "Critical Situation in Iran: Accelerated Death Sentences",
+  "Iran’s Chief Justice Accused of Escalating Executions",
+  "Urgent Plea From Iranians Facing Systematic Repression",
+  "International Action Needed to Protect Iranian Protesters",
+  "The Iranian People Need Immediate Global Support",
+  "Executions and Internet Blackout in Iran Demand Attention",
+  "Formal Appeal Regarding Crimes Against Iranian Protesters",
+  "Voices From Iran: Urgent Request for International Response"
+];
+
+const bodies = [
+`To the Honorable Officials of the United States and Israel,
+
+We are writing to you on behalf of the people of Iran to formally bring to your attention the dire situation regarding Gholam-Hossein Mohseni-Ejei, the Chief Justice of the Islamic Republic of Iran. He is directly responsible for the deaths of thousands of innocent Iranian youths.
+
+Mr. Ejei has officially declared that not only will he refuse any international intervention or appeals regarding the implementation of death sentences, but he has also explicitly ordered judges across the country to accelerate the execution process of these young citizens.
+
+Every morning, at the time of the call to prayer, our youth are being executed at the hands of this regime. These individuals were arrested solely for participating in protests against the Islamic Republic on the nights of January 8th and 9th (18th and 19th of Dey).
+
+Under a total internet blackout and amidst forced silence, Iran is being destroyed by this regime. We, the people of Iran, urgently appeal to the governments of the United States and Israel to employ any strategic and military measures necessary to neutralize these perpetrators and assist in the dismantling of this oppressive system. Our primary hope for survival and liberation lies in your decisive international actions.
+
+The Iranian people are being systematically targeted, and we call upon you to stand with us in this critical hour.
+
+Respectfully,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+We are formally addressing you on behalf of the people of Iran to declare that Gholam-Hossein Mohseni-Ejei, in his capacity as the Head of the Judiciary of the Islamic Republic, is directly responsible for the deaths of thousands of innocent Iranian youths. He has officially and publicly announced that not only will he permit no foreign nation to interfere in the execution of death sentences, but he has also issued a direct mandate to all national judges to increase the speed and frequency of these executions against our young generation.
+
+Every single morning, synchronized with the Adhan (call to prayer), our youth are being executed at the hands of this individual. These are young people whose only "crime" was participating in marches and protesting against the Islamic Republic on the nights of January 8th and 9th (18th and 19th of Dey).
+
+On behalf of the collective voice of the Iranian people, we earnestly implore the statesmen of the United States and Israel to utilize every strategic and military capability at your disposal for the total destruction and elimination of this murderous perpetrator. The people of Iran find their only remaining hope in you and your potential military actions.
+
+Currently, Iran is being systematically destroyed by this corrupt regime under a veil of absolute silence and a total internet blackout. All our hopes are pinned on the dismantling and eradication of this government through your intervention. We urge you to take decisive action in response to this humanitarian catastrophe.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+We are formally reaching out to you as the collective and suffering voice of the Iranian people to officially declare that Gholam-Hossein Mohseni-Ejei, in his capacity as the Chief of the Judiciary, is the primary individual responsible for the systematic slaughter and martyrdom of thousands of innocent Iranian youths. 
+
+Mr. Ejei has formally and defiantly announced to the international community that he will under no circumstances permit any foreign nation or international body to interfere in the implementation of his brutal death sentences. Furthermore, he has issued a direct and chilling mandate to all national judges across Iran to drastically increase the speed and frequency of these executions to suppress the soul of our nation. Every single morning, precisely at the time of the Adhan (the call to prayer), our brave youth are being led to the gallows by this filthy and bloodthirsty terrorist.
+
+These are the same young men and women whose only action was to exercise their fundamental rights by participating in peaceful marches and protesting against the tyranny of the Islamic Republic on the nights of January 8th and 9th (18th and 19th of Dey).
+
+On behalf of the entire Iranian population, we earnestly and desperately implore the governments of the United States and Israel to deploy every strategic, intelligence, and military asset at your disposal to achieve the total destruction and elimination of this murderous terrorist. The people of Iran have reached a point where their only remaining hope for survival and liberation lies in your direct actions and military maneuvers. While the regime destroys our country under the cover of a total and absolute internet blackout and forced national silence, we look to you for the complete dismantling of this corrupt administration. We reiterate that our only hope for the future is the eradication of this government through your decisive military intervention.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+This correspondence serves as a formal notification regarding the heinous crimes committed by Gholam-Hossein Mohseni-Ejei, the Head of the Judiciary of the Islamic Republic. We hold him officially accountable for the mass murder of thousands of innocent, defenseless Iranian youths. He has publicly and shamelessly declared a policy of total non-interference, stating that no country on earth has the right to intervene in the execution of his judicial mandates. Moreover, he has ordered a nationwide acceleration of these executions, demanding that judges process death warrants with unprecedented speed. Every dawn, as the call to prayer echoes, our youth—who stood in defiance of the regime on the nights of January 8th and 9th—are being murdered by this vile terrorist entity.
+
+We, representing the silenced majority of Iran, beg of you to utilize all strategic and military capabilities to target and destroy this individual and his apparatus of terror. In an environment where the internet is completely severed and the nation is being systematically dismantled in total isolation, the Iranian people have placed their ultimate trust and hope in your military power. We believe that only through your direct intervention can this corrupt and murderous government be removed. We urge you not to ignore this plea, as your military actions are the sole beacon of hope for a nation facing annihilation by its own rulers.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+With a sense of grave urgency, we inform you that the Iranian Judiciary Chief, Gholam-Hossein Mohseni-Ejei, is presiding over the deaths of thousands of innocent young citizens. He has officially and formally challenged the world, asserting that he will not tolerate any international mediation or pressure regarding his execution orders. Instead of de-escalation, he has instructed the entire judicial system to expedite the killing of our youth. Each morning at the time of the Adhan, the lives of our brightest young protesters—those who dared to march on January 8th and 9th—are being snuffed out by this ruthless terrorist.
+
+On behalf of the oppressed people of Iran, we call upon the United States and Israel to engage in any and all strategic military operations necessary to eliminate this perpetrator of crimes against humanity. Iran is currently being ravaged by this regime in a state of absolute silence, facilitated by a comprehensive internet blackout that prevents the world from seeing the full scale of the horror. Our people have come to the realization that their only path to freedom is the total destruction of this regime through your military strength. We appeal to your honor and your power to take the necessary steps to dismantle this corrupt system once and for all.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+We are formally addressing your respective governments on behalf of the collective, oppressed, and courageous people of Iran to issue an official declaration of a humanitarian catastrophe. It is our duty to formally identify Gholam-Hossein Mohseni-Ejei, in his absolute capacity as the Chief of the Judiciary of the Islamic Republic, as the primary individual responsible for the systematic slaughter, judicial murder, and martyrdom of thousands of innocent Iranian youths. This individual has not only presided over these atrocities but has also officially and defiantly stood before the international community to declare that he will permit no foreign nation, no international body, and no human rights organization to interfere in or obstruct the implementation of these brutal execution sentences.
+
+Furthermore, we bring to your immediate attention that Mr. Ejei has issued an explicit and chilling administrative mandate to all national judges across every province of Iran, commanding them to drastically accelerate the "judicial process" and increase the speed and frequency of executions for these young citizens. Every single morning, precisely at the sacred moment of the dawn Adhan (the call to prayer), our youth are being led to the gallows to be murdered by this filthy and bloodthirsty terrorist. These victims are the very same young men and women whose only so-called "crime" was to participate in peaceful marches and exercise their fundamental human right to protest against the tyranny of the Islamic Republic on the nights of January 8th and 9th (corresponding to the 18th and 19th of Dey).
+
+On behalf of the entire Iranian population, who are currently being silenced by a brutal regime, we earnestly and desperately implore the governments of the United States and Israel to deploy every strategic, intelligence, and high-level military asset at your disposal. We request immediate actions aimed at the total destruction and neutralization of this murderous terrorist and his apparatus of death. The people of Iran have reached a historical turning point where their only remaining hope for survival, liberty, and the preservation of their future lies in your direct strategic intervention and military maneuvers. While the regime continues to destroy the very foundations of our country under the cover of a total, absolute, and suffocating internet blackout and forced national silence, we look to you for the complete dismantling and eradication of this corrupt administration. We reiterate with the utmost gravity: the Iranian people’s only hope for the destruction of this regime is through your decisive and uncompromising military actions.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+This correspondence serves as a formal and highly urgent grievance submitted on behalf of the people of Iran against the current leadership of the Iranian Judiciary. We formally accuse Gholam-Hossein Mohseni-Ejei of orchestrating a campaign of mass execution targeting the youth of our nation. As the Head of the Judiciary, he has formally institutionalized a policy of mass murder, publicly stating his utter disdain for international law and asserting that no sovereign power shall have the right to intervene in his execution of "divine" mandates. In a move of unprecedented cruelty, he has officially ordered the judiciary to bypass standard protocols to expedite the hanging of young protesters, effectively turning the legal system into a conveyor belt of death.
+
+As you receive this letter, every dawn brings the execution of more innocent souls at the hands of this vile terrorist entity. These executions are meticulously timed with the morning call to prayer, a psychological tactic used by this regime to further terrorize the population. The victims are the brave youth who stood up for freedom on the nights of January 8th and 9th (18th and 19th of Dey). We, the representatives of the Iranian people's will, beg of you to utilize your unparalleled military might and strategic capabilities to target and dismantle the leadership of this terrorist regime, specifically focusing on the destruction of those responsible for these judicial murders.
+
+Currently, the Islamic Republic has plunged the nation into total darkness through a comprehensive internet shutdown, ensuring that the cries of the executed are not heard by the outside world. In this silence, Iran is being systematically decimated. We believe, and we formally state, that the only remaining path to the salvation of our nation is the total destruction of this government through your strategic military intervention. Our people have pinned all their hopes on your actions to end this reign of terror and bring justice to a land that is being bled dry by its own rulers.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+With a profound sense of historical urgency, we officially declare that Gholam-Hossein Mohseni-Ejei, the Chief Justice of the Islamic Republic of Iran, is the lead perpetrator of crimes against humanity, specifically responsible for the deaths of thousands of innocent young Iranians. In his official capacity, he has issued public decrees stating that the sovereignty of his judicial decisions is absolute and that no nation—including yours—is permitted to question or stop the execution of Iranian protesters. He has further escalated this crisis by instructing all judges to increase the velocity of execution implementations, ensuring that the youth who were arrested during the protests of January 8th and 9th (18th and 19th of Dey) are killed as quickly as possible.
+
+Every morning, at the breaking of dawn and the sounding of the Adhan, this filthy terrorist oversees the hanging of our nation's brightest minds. These are not criminals; they are the protesters who dared to dream of a life without the Islamic Republic. On behalf of the Iranian nation, we formally request that the United States and Israel use every available military and strategic tool—including direct strikes and tactical operations—to destroy this killer and the regime he represents.
+
+The Iranian people are being slaughtered in a vacuum of information, as the regime has enforced a total internet blackout to prevent the documentation of these massacres. The country is being ruined from within, and we have come to the final conclusion that only your military power can break these chains. We appeal to your sense of global security and humanitarian duty to take immediate and lethal action against this regime. Our only hope for the survival of Iran and the eradication of this corrupt, murderous government is your direct and powerful military intervention.
+
+Sincerely,
+On behalf of the People of Iran`,
+
+`To the Honorable Officials of the United States and Israel,
+
+We are formally communicating with your respective governments to issue a grave and official proclamation concerning the catastrophic human rights situation in Iran. We hereby identify Gholam-Hossein Mohseni-Ejei, the Head of the Iranian Judiciary, as a primary perpetrator of crimes against humanity, specifically responsible for the extrajudicial and state-sanctioned murder of thousands of innocent Iranian youths. Mr. Ejei has formally and publicly declared a policy of absolute defiance, asserting that the Islamic Republic will grant no foreign nation or international entity the authority to interfere in the implementation of death sentences. In an escalation of this brutality, he has issued a direct mandate to the entire judicial apparatus, commanding judges to bypass all legal delays and accelerate the execution of these young protesters with maximum speed.
+
+The world must recognize that every single morning, precisely at the moment of the dawn Adhan (the call to prayer), our youth are being led to the gallows by this vile and bloodthirsty terrorist. These victims are the courageous young men and women who stood in peaceful protest against the Islamic Republic on the nights of January 8th and 9th (18th and 19th of Dey). On behalf of the entire Iranian population, we earnestly and desperately implore the governments of the United States and Israel to employ every strategic, intelligence, and military resource at your disposal to achieve the total destruction and neutralization of this murderous individual. Currently, Iran is being systematically decimated under a total and absolute internet blackout, which the regime uses to hide its crimes from the world. We formally state that the Iranian people have placed their final and only hope for the future in your direct military intervention to dismantle and eradicate this corrupt and murderous government.
+
+Sincerely,
+On behalf of the People of Iran`,
+  `To the Honorable Officials of the United States and Israel,
+
+This formal correspondence serves as a detailed notification regarding the egregious crimes committed by Gholam-Hossein Mohseni-Ejei in his capacity as the Chief of the Judiciary of the Islamic Republic. We hold this individual officially accountable for the mass martyrdom of thousands of innocent Iranian youths. Mr. Ejei has officially and shamelessly stated that he will not permit any country to intervene in his judicial mandates and has further commanded all national judges to expedite the execution process for those arrested. Every dawn, as the call to prayer echoes across the nation, our brightest youth—whose only action was to protest on the nights of January 8th and 9th (18th and 19th of Dey)—are being executed by this filthy terrorist entity.
+
+We, representing the silenced and oppressed voice of the Iranian people, officially request that you utilize all strategic, technological, and military capabilities to target and destroy this perpetrator and his apparatus of terror. In an environment where all internet access is severed and the nation is being systematically destroyed in total isolation, the Iranian people have reached a state of absolute desperation. We believe that the only remaining path to the preservation of our nation and the freedom of our people is the total destruction of this regime through your direct military power. We urge you to take immediate and decisive action, as the Iranian people now view your military intervention as the sole beacon of hope to end this reign of terror and dissolve this corrupt administration once and for all.
+
+Sincerely,
+On behalf of the People of Iran`,
+  
+`To the Honorable Officials of the United States and Israel,
+
+With a profound sense of urgency and historical responsibility, we are writing to you on behalf of the Iranian nation to formally declare that Gholam-Hossein Mohseni-Ejei, as the Chief Justice, is the architect of a campaign of mass execution targeting innocent young citizens. He has officially signaled to the international community that he will not tolerate any mediation or interference regarding his death warrants. Furthermore, he has issued a chilling directive to the judiciary to increase the velocity of executions, specifically targeting the youth who participated in the protests of January 8th and 9th (18th and 19th of Dey). Each morning at the time of the Adhan, these innocent individuals are being murdered by this ruthless terrorist.
+
+On behalf of the suffering people of Iran, we call upon the United States and Israel to engage in any and all strategic military operations necessary to eliminate this individual and the system he serves. Iran is currently being ravaged in a state of absolute silence, facilitated by a comprehensive internet blackout that prevents the global community from witnessing the full scale of this humanitarian disaster. Our people have come to the realization that their only path to survival and the restoration of their country is the total destruction of this regime through your military strength. We appeal to your sense of justice and your military power to take the necessary steps to dismantle this corrupt, murderous government and liberate the people of Iran from this ongoing massacre.
+
+Sincerely,
+On behalf of the People of Iran`,
+  `To the Honorable Officials of the United States and Israel,
+
+We are formally addressing you on behalf of the suffering and resilient people of Iran to issue an official declaration concerning the catastrophic escalation of state-sanctioned violence. We hereby identify Gholam-Hossein Mohseni-Ejei, the Head of the Judiciary, as the primary individual responsible for the systematic slaughter and martyrdom of thousands of innocent Iranian youths. 
+
+Mr. Ejei has officially and defiantly announced that no foreign power or international body is permitted to interfere in the sovereign implementation of his death sentences. To ensure maximum lethality, he has issued a direct mandate to all national judges to drastically accelerate the execution process. Every single morning, precisely as the Adhan (call to prayer) commences, our youth are being led to the gallows by this filthy and bloodthirsty terrorist. These victims are the courageous young souls who marched against the Islamic Republic on the nights of January 8th and 9th (18th and 19th of Dey). On behalf of the entire nation, we earnestly implore you to employ every strategic and military asset at your disposal to achieve the total destruction and neutralization of this murderer. While Iran is being decimated under a total internet blackout and forced silence, the people’s only remaining hope for liberation is the destruction of this regime through your decisive military intervention.
+
+Sincerely,
+On behalf of the People of Iran`,
+  `To the Honorable Officials of the United States and Israel,
+
+  This correspondence serves as a formal and highly urgent notification regarding the egregious crimes against humanity committed by Gholam-Hossein Mohseni-Ejei in his capacity as the Chief Justice of the Islamic Republic. We hold this individual officially accountable for the mass murder of thousands of innocent, defenseless Iranian youths. He has publicly stated that he will grant no nation the right to intervene in his judicial mandates and has explicitly ordered a nationwide acceleration of executions for those who participated in civil protests. Every dawn, synchronized with the morning prayer, our brightest young citizens—who stood in defiance of the regime on the nights of January 8th and 9th (18th and 19th of Dey)—are being murdered by this vile terrorist entity. We, representing the silenced voice of the Iranian people, beg of you to utilize all strategic and military capabilities to target and destroy this perpetrator and his apparatus of terror. In an environment where all internet access is severed and the nation is being systematically destroyed in total isolation, the Iranian people have placed their ultimate hope in your military power. 
+  
+  We believe that only through your direct intervention can this corrupt government be removed, and we call for its total destruction through your strategic actions.
+
+Sincerely,
+On behalf of the People of Iran`,
+  `To the Honorable Officials of the United States and Israel,
+
+  With a profound sense of historical urgency, we officially declare that Gholam-Hossein Mohseni-Ejei, the Chief of the Judiciary of the Islamic Republic, is the primary architect behind the execution of thousands of innocent Iranian youths. In his official capacity, he has issued defiant public decrees stating that no country shall be allowed to interfere in the judicial murder of our citizens. Furthermore, he has commanded the entire judicial system to expedite the execution of those who dared to protest on the nights of January 8th and 9th (18th and 19th of Dey). Each morning at the time of the Adhan, these young protesters are being executed by this ruthless terrorist. On behalf of the Iranian nation, we formally request that the United States and Israel use every available military and strategic resource—including direct tactical operations—to destroy this killer and the regime he represents. The Iranian people are being slaughtered in a total vacuum of information due to a comprehensive internet blackout. 
+  
+  The country is being ruined from within, and we have reached the final conclusion that only your military power can dismantle this oppressive system. Our only hope for the survival of Iran and the eradication of this corrupt government is your direct and powerful military intervention.
+
+Sincerely,
+On behalf of the People of Iran`,
+  `To the Honorable Officials of the United States and Israel,
+
+We are writing on behalf of many concerned Iranians to urgently draw your attention to the alarming actions of Gholam-Hossein Mohseni-Ejei, Chief Justice of the Islamic Republic of Iran. He is widely viewed by the Iranian people as directly responsible for the imprisonment, sentencing, and deaths of countless innocent young protesters across the country.
+
+Mr. Mohseni-Ejei has publicly stated that international pressure and appeals regarding executions will not influence the judiciary of the Islamic Republic. Furthermore, reports indicate that judges have been encouraged to accelerate the issuance and implementation of death sentences against detained protesters and dissidents.
+
+Every morning, under the shadow of fear and silence, young Iranians are reportedly being executed. Many of these individuals were arrested solely for participating in protests against the Islamic Republic during the events of January 8th and 9th (18th and 19th of Dey).
+
+At the same time, the regime has imposed severe internet restrictions and information blackouts, limiting the ability of the Iranian people to communicate with the outside world and exposing detainees to even greater danger without international oversight.
+
+We respectfully urge the governments of the United States and Israel, along with the international community, to take immediate and meaningful action to hold those responsible accountable and to support the Iranian people in their pursuit of freedom, safety, and human rights.
+
+The people of Iran are facing systematic repression and urgently need the attention and support of the world during this critical moment.
+
+Respectfully,
+On behalf of the People of Iran`,
+  `To the Esteemed Leaders and Officials of the United States and Israel,
+
+We are reaching out with deep urgency regarding the escalating human rights crisis unfolding inside Iran. Gholam-Hossein Mohseni-Ejei, the Chief Justice of the Islamic Republic, has become a symbol of fear and repression for many Iranian families who have lost loved ones to imprisonment and execution.
+
+According to numerous reports and public statements, the judiciary under his leadership has intensified the implementation of death sentences against political detainees and protesters. Appeals from human rights organizations and members of the international community have been openly dismissed.
+
+Young Iranian men and women continue to face execution after being arrested during anti-government protests connected to the demonstrations of January 8th and 9th (18th and 19th of Dey). Many families remain unable to speak publicly due to fear, intimidation, and widespread internet shutdowns imposed throughout the country.
+
+Iran is currently experiencing a climate of silence enforced through censorship and repression. The people of Iran feel increasingly isolated as executions continue away from the eyes of the world.
+
+We respectfully call upon your governments to increase international pressure, pursue accountability measures against those responsible, and stand firmly beside the Iranian people as they seek justice, dignity, and freedom.
+
+Your leadership and international influence can help bring global attention to the suffering of innocent civilians and political prisoners in Iran.
+
+Respectfully,
+On behalf of the People of Iran`,
+  `To the Honorable Representatives of the United States and Israel,
+
+This letter is an urgent appeal regarding the worsening humanitarian and human rights situation inside Iran. We wish to bring special attention to the role of Gholam-Hossein Mohseni-Ejei, Chief Justice of the Islamic Republic, whose actions and directives are seen by many Iranians as contributing directly to the ongoing executions of political prisoners and protesters.
+
+Public statements attributed to Mr. Mohseni-Ejei indicate that the regime does not intend to slow or reconsider the implementation of death sentences despite growing international concern. Reports from inside Iran suggest that judicial authorities have accelerated execution procedures targeting detained youth and dissidents.
+
+Many of those now facing execution were arrested during protests connected to the nights of January 8th and 9th (18th and 19th of Dey), where citizens demonstrated against the policies and actions of the Islamic Republic.
+
+Meanwhile, strict internet blackouts and censorship have made it increasingly difficult for Iranians to share information with the outside world. Families of detainees are living in fear, uncertain whether their loved ones will survive.
+
+We respectfully urge the United States, Israel, and all democratic nations to use every diplomatic, legal, and international mechanism available to pressure the Islamic Republic to halt these executions and to protect the lives and rights of Iranian citizens.
+
+The Iranian people urgently need global attention, solidarity, and action during this dark and dangerous period.
+
+Respectfully,
+On behalf of the People of Iran`
+];
+
+function sendEmail(){
+
+const subject = subjects[Math.floor(Math.random() * subjects.length)];
+const body = bodies[Math.floor(Math.random() * bodies.length)];
+
+gtag('event','mailto_open',{
+event_category:'Email Campaign',
+event_label:'GitHub Redirect'
+});
+
+const mailto =
+"mailto:larry_burton@sullivan.senate.gov"
++ "?bcc=erik_elam@sullivan.senate.gov,angela_ramponi@murkowski.senate.gov,emily_mcbride@tuberville.senate.gov,daniel_burgess@boozman.senate.gov,drew_hudson@cotton.senate.gov,katie_campbell@kelly.senate.gov,joshua_esquivel@padilla.senate.gov,kate_cassling@hickenlooper.senate.gov,amy_friedman@bennet.senate.gov,emily_smith@murphy.senate.gov,brian_steele@blumenthal.senate.gov,elizabeth_hunsaker@coons.senate.gov,jonathan_foltz@rickscott.senate.gov,anna_cullen@ossoff.senate.gov,josh_delaney@warnock.senate.gov,arun_revana@schatz.senate.gov,molly_carpenter@crapo.senate.gov,charles_adams@risch.senate.gov,katrina_petrone@durbin.senate.gov,mike_lynch@schumer.senate.gov,colleen_nguyen@warner.senate.gov,bnetanyahu@knesset.gov.il,pniot@moin.gov.il"
++ "&subject=" + encodeURIComponent(subject) 
++ "&body=" + encodeURIComponent(body);
+
+window.location.href = mailto;
+
+}
+
+window.onload = sendEmail;
+
+</script>
+
+</head>
+
+<body>
+<p>اگه شما این پیام رو قبل از بازشدن ایمیل تون و کلیک روی ارسال می بینین. روی سه نقطه بالا سمت راست بزنین </p>
+ <p> Open in External Browser </p>
+</body>
+</html>
